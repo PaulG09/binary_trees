@@ -2,10 +2,8 @@
 
 /**
  * binary_tree_delete - deletes an entire binary tree
- * @tree: a pointer to the root node of the tree to delete
- * Description: If tree is NULL, do nothing
+ * @tree: tree to delete
  */
-
 void binary_tree_delete(binary_tree_t *tree)
 {
 	if (!tree)
